@@ -1,2 +1,4 @@
-# taxi-app-data-analysis
-A Taxi App Data Analysis
+# A Taxi App Data Analysis
+---
+
+Analyzing the data for a taxi app company.
