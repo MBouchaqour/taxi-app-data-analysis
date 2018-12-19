@@ -40,3 +40,8 @@ Thumbs.db
 #for the pycache
 *.pyc
 *.pyo
+
+
+#only for the Pyber project
+
+*.pdf
