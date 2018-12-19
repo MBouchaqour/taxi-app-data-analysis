@@ -10,14 +10,14 @@ The ride sharing bonanza continues! Seeing the success of notable players like U
 
 You've since been given access to the company's complete recordset of rides. This contains information about every active driver and historic ride, including details like city, driver count, individual fares, and city type.
 
-Your objective is to build a Bubble Plot that showcases the relationship between four key variables:
+Your objective is to build a **Bubble Plot** that showcases the relationship between four key variables:
 
 - Average Fare ($) Per City
 - Total Number of Rides Per City
 - Total Number of Drivers Per City
 - City Type (Urban, Suburban, Rural)
 
-In addition, you will be expected to produce the following three pie charts:
+In addition, you will be expected to produce the following three **pie charts**:
 
 - % of Total Fares by City Type
 - % of Total Rides by City Type
@@ -29,7 +29,7 @@ In addition, you will be expected to produce the following three pie charts:
 
 The following script provides an analytical approach to the sales information of items in the Heroes of Pymoli video game store. The data was loaded from a csv, then parsed and analyzed using Python Pandas.
 
-Click here to see the Solution Code [HeroesOfPymoli.ipynb](HeroesOfPymoli.ipynb).
+Click here to see the Solution Code [pyber.ipynb](pyber.ipynb).
 
 ##### Initial Code:
 
@@ -89,7 +89,7 @@ ride_df.head()
 ##### DataFrame Output:
 
 |city|city_type|rides|avg_fare|driver_count|
-|----|----|----|-------|------------|----|
+|----|---------|-----|--------|------------|
 |Amandaburgh|Urban|18|24.641667|12|
 |Barajasview|Urban|22|25.332273|26|
 |Barronchester|Suburban|16|36.422500|11|
@@ -311,14 +311,14 @@ plt.savefig('Images/04_Total_Drivers_by_City_Type.png', bbox_inches="tight")
 
 ![04_Total_Drivers_by_City_Type](Images/04_Total_Drivers_by_City_Type.png)
 
-
+---
 
 ## Conclusions
 
 Based on our analysis, the following conclusions can be established:
 
-* Of the 576 unique users who buy something in the Heroes of Pymoli store, most of them are between 20 and 24 years old (44.79%). However, the most profitable users are those between 35 and 39 years old, spending approximately $4.76 per user, compared to $4.32 spent per user in the 20-24 range.
+* It is clear that the Taxi app is way more used in cities. This might be because 1) it is really known that Urban areas hold a higher population by squared feet, but also 2) it turns out that Urban areas hold 80.9% of total drivers on the app.
 
-* *Nirvana* is not only among the most popular items, but it is also one of the most profitable, costing $ 4.90.
+* The higher offer on drivers in Urban areas make that the prices of trips drop and it creates a cycle effect: lower prices / more users using it because it is cheap / more drivers because they have service demand.
 
-* Even though *Extraction, Quickblade Of Trembling Hands* is not the most profitable item on the store, this is the third most popular item on the store: 9 purchases have made $31.77 dollars to the owners of Heroes de Pymoli.
+* Increasing the drivers on Suburban areas might be beneficial to the business because it seems that there is a market there that is willing to pay more for trips, however there are only 16.5% of drivers on Suburban areas.
